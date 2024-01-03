@@ -6,7 +6,7 @@ Welcome to the Snake Game built using Unity engine and coded in C#. This classic
 
 ## Contents
 
-- **codes.zip:** Contains all the code files required for the game. all cs files are in codes/Assests/Scripts
+- **codes:** Contains all the code files required for the game. all cs files are in codes/Assests/Scripts
   - `MenuScript.cs`: Handles the game menu functionality.
   - `GameOverScreenScript.cs`: Manages the game over screen.
   - `ScoreScript.cs`: Tracks and updates the player's score.
@@ -14,7 +14,7 @@ Welcome to the Snake Game built using Unity engine and coded in C#. This classic
   - `SpawnFood.cs`: Manages the spawning of food items.
   - `SS.cs`: Extended/helper Snake behavior.
 
-- **build.zip:** Contains the executable application and necessary DLL files to run the game.
+- **build:** Contains the executable application and necessary DLL files to run the game.
 
 ---
 
@@ -24,23 +24,20 @@ Follow the steps below to run the Snake Game:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-username/snake-game.git
+   git clone https://github.com/manisha-v/snake-game.git
    cd snake-game
    ```
 
-2. **Extract Code Files:**
-   - Locate and extract the contents of `codes.zip`.
+2. **Open Unity:**
+   - Open Unity Hub and add the project by selecting the folder.
 
-3. **Open Unity:**
-   - Open Unity Hub and add the project by selecting the extracted folder.
-
-4. **Run the Game:**
+3. **Run the Game:**
    - Open the main scene.
    - Press the play button in the Unity Editor to run the game.
 
 5. **Or just Run the Executable:**
-   - Extract the contents of `build.zip`.
-   - Run the provided executable file (`SnakeGame.exe`) to play the game.
+   - Present in the folder `build`.
+   - Run the provided executable file (`SnakeGameUpdated.exe`) to play the game.
 
 6. **Enjoy:**
    - Control the snake using the arrow keys and try to eat as much food as possible without colliding with the walls or yourself.
